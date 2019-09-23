@@ -24,6 +24,6 @@ jobs:
         
     - name: Deploy to GitHub Pages
       uses: "nchaulet/github-action-gh-pages@master"
-      secrets: [GITHUB_TOKEN]
       env: 
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLIC_PATH: out
