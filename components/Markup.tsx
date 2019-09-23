@@ -57,13 +57,13 @@ export function MarkupLine({ children: line }: { children: Line }) {
 
         ul {
           margin: 0 var(--gutter);
-          opacity: 0.5;
         }
 
         .root {
           transition: 0.2s;
 
-          box-shadow: ${expanded ? "0 0 2rem rgba(0,0,0,0.2)" : "none"};
+          box-shadow: ${expanded ? "0 0 3rem rgba(0,0,0,0.2)" : "none"};
+          border-radius: 0.5rem;
           padding: ${expanded ? "0.5rem" : "0"} 0;
           margin: ${expanded ? "0.5rem" : "0"} 0;
         }
@@ -98,7 +98,7 @@ export function MarkupStanza({ children: stanza }: { children: Stanza }) {
     <section>
       <style jsx>{`
         section {
-          margin-bottom: 2rem;
+          margin-bottom: 1rem;
           ${stanza.blockquote && `margin-left: var(--gutter)`}
         }
       `}</style>
@@ -116,7 +116,7 @@ function InlineMarkdown({ children }: { children: string }) {
       unwrapDisallowed
       disallowedTypes={["paragraph"]}
       className="line"
-      source={children}
+      source={children.replace(/---/g, "—")}
     />
   );
 }
