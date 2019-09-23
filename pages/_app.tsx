@@ -1,6 +1,7 @@
 import * as React from "react";
 import App from "next/app";
 import Head from "next/head";
+import GithubCorner from "react-github-corner";
 
 const rootStyles = `
 
@@ -44,6 +45,13 @@ export default class MyApp extends App {
           <style>{rootStyles}</style>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
+        <GithubCorner
+          href={`https://github.com/wgoodall01/theme-for-english-b`}
+          bannerColor="#151513"
+          octoColor="#fff"
+          size={60}
+          direction="left"
+        />
         <Component {...pageProps} />
       </>
     );
