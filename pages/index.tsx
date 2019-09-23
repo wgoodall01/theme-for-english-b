@@ -17,6 +17,12 @@ export default function Poem() {
           background-color: white;
         }
 
+        @media screen and (max-width: 40rem) {
+          .root {
+            margin: 0;
+          }
+        }
+
         section {
           margin-left: var(--gutter);
         }
