@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Set up Node.JS
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
@@ -22,8 +22,9 @@ jobs:
       env:
         CI: true
         
-    - name: Deploy to GitHub Pages
-      uses: "nchaulet/github-action-gh-pages@master"
-      env: 
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PUBLIC_PATH: out
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2.3.1
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./out
