@@ -30,7 +30,7 @@ export default function Poem() {
       <section>
         <h1>Theme for English B</h1>
         <p>
-          <i>by Langston Hughes</i>
+          <i>by Langston Hughes, annotated by William Goodall</i>
         </p>
       </section>
       <Markup>{poem}</Markup>
