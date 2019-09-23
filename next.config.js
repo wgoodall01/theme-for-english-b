@@ -8,8 +8,12 @@ module.exports = {
     return config;
   },
 
-  assetPrefix: "/theme-for-english-b/",
-  experimental: {
-    publicDirectory: true
-  }
+  ...(process.env.NODE_ENV === "production"
+    ? {
+        assetPrefix: "/theme-for-english-b/",
+        experimental: {
+          publicDirectory: true
+        }
+      }
+    : {})
 };
