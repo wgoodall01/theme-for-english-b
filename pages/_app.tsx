@@ -43,9 +43,6 @@ export default class MyApp extends App {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
         <Component {...pageProps} />
-
-        {/* Include Genius annotation support */}
-        <script src="https://genius.codes" />
       </>
     );
   }

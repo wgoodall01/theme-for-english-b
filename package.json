@@ -6,6 +6,7 @@
   "author": "William Goodall <wgoodall01@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "js-yaml-loader": "^1.2.2",
     "next": "^9.0.6",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
