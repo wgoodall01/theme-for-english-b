@@ -1,6 +1,7 @@
 import * as React from "react";
 import { useState } from "react";
 import { Chunk, Stanza, Line } from "../lib/markup";
+import ReactMarkdown from "react-markdown";
 
 export default function Markup({ children }: { children: Chunk }) {
   switch (children.kind) {
@@ -25,14 +26,9 @@ export function MarkupLine({ children: line }: { children: Line }) {
   return (
     <div className="root">
       <style jsx>{`
-        p {
+        .line :global(p) {
           margin: 0;
-        }
-
-        ul {
-          margin-left: var(--gutter);
-          appearance: none;
-          opacity: 0.5;
+          background-color: red;
         }
 
         .line-container {
@@ -59,6 +55,11 @@ export function MarkupLine({ children: line }: { children: Line }) {
           width: var(--gutter);
         }
 
+        ul {
+          margin: 0 var(--gutter);
+          opacity: 0.5;
+        }
+
         .root {
           transition: 0.2s;
 
@@ -75,14 +76,16 @@ export function MarkupLine({ children: line }: { children: Line }) {
         ) : (
           <div className="note-count-placeholder" />
         )}
-        <p>{line.text}</p>
+        <InlineMarkdown>{line.text}</InlineMarkdown>
       </div>
 
       {/* All the attached annotations */}
       {expanded && (
         <ul>
           {line.annotations.map((e, i) => (
-            <li key={i}>{e}</li>
+            <li key={i}>
+              <InlineMarkdown>{e}</InlineMarkdown>
+            </li>
           ))}
         </ul>
       )}
@@ -104,5 +107,16 @@ export function MarkupStanza({ children: stanza }: { children: Stanza }) {
         <Markup key={i}>{e}</Markup>
       ))}
     </section>
+  );
+}
+
+function InlineMarkdown({ children }: { children: string }) {
+  return (
+    <ReactMarkdown
+      unwrapDisallowed
+      disallowedTypes={["paragraph"]}
+      className="line"
+      source={children}
+    />
   );
 }

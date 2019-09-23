@@ -19,7 +19,7 @@
 - - "I wonder if it’s that simple?"
   - "I am twenty-two, colored, born in Winston-Salem.":
       - |
-        Fun fact: Hughes wasn't actually born in Winston-Salem. This tells us 
+        *Fun fact*: Hughes wasn't actually born in Winston-Salem. This tells us 
         that the poem isn't autobiographical: Hughes and the speaker are two separate people.
 
   - "I went to school there, then Durham, then here"
@@ -28,7 +28,8 @@
   - "The steps from the hill lead down into Harlem,"
   - "through a park, then I cross St. Nicholas,"
   - "Eighth Avenue, Seventh, and I come to the Y,"
-  - "the Harlem Branch Y, where I take the elevator"
+  - "the Harlem Branch Y, where I take the elevator":
+      - The [Harlem Branch Y](https://wikipedia.org) was a place.
   - "up to my room, sit down, and write this page:"
 
 - - "It’s not easy to know what is true for you or me"
