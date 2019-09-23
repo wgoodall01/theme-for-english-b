@@ -8,24 +8,25 @@ const poem = parse(rawPoemData);
 
 export default function Poem() {
   return (
-    <div className="outer">
+    <div className="root">
       <style jsx>{`
-        .outer {
+        .root {
           max-width: 40rem;
-          margin: 3rem;
-          padding: 3rem;
+          margin: var(--gutter);
+          padding: var(--gutter) 0;
           background-color: white;
         }
 
-        pre {
-          font-family: "Alegreya", "Charter", sans-serif;
-          line-height: 1.5rem;
+        section {
+          margin-left: var(--gutter);
         }
       `}</style>
-      <h1>Theme for English B</h1>
-      <p>
-        <i>by Langston Hughes</i>
-      </p>
+      <section>
+        <h1>Theme for English B</h1>
+        <p>
+          <i>by Langston Hughes</i>
+        </p>
+      </section>
       <Markup>{poem}</Markup>
     </div>
   );

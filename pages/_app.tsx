@@ -23,6 +23,8 @@ h1, h2, h3, h4, h5, h6 {
 
 :root {
   --color-shade: rgb(235, 235, 235);
+  --color-gray: #555;
+  --gutter: 4rem;
 }
 
 `;
