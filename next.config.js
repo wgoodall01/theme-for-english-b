@@ -8,5 +8,8 @@ module.exports = {
     return config;
   },
 
-  assetPrefix: "/theme-for-english-b/"
+  assetPrefix: "/theme-for-english-b/",
+  experimental: {
+    publicDirectory: true
+  }
 };
