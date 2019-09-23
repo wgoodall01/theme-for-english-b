@@ -10,7 +10,9 @@
 - kind: stanza
   blockquote: true
   children:
-    - "Go home and write"
+    - "Go home and write":
+        - The professor's voice, in this section, clearly stands out from the rest of the poem.
+        - As the only section of the poem which rhymes, it seems slightly shallow---like the professor doesn't really know the depth of the question they're asking.
     - "a page tonight."
     - "And let that page come out of you—"
     - "Then, it will be true.":
@@ -48,15 +50,19 @@
       - At this point, the speaker is using writing to discover what their truth really is.
   - "at twenty-two, my age. But I guess I’m what"
   - "I feel and see and hear, Harlem, I hear you.":
-      - The speaker acknowledges that truth can only extend to the outputs of our senses.
+      - The speaker acknowledges that truth can only extend to the outputs of our senses. Again, it's externally motivated---the speaker tries to extract the truth from his environment.
   - "hear you, hear me—we two—you, me, talk on this page."
   - "(I hear New York, too.) Me—who?"
 
-- - "Well, I like to eat, sleep, drink, and be in love."
+- - "Well, I like to eat, sleep, drink, and be in love.":
+      - The stanza starts out with description. It goes to show some common ground with the instructor---that there are a set of core, universal joys of life.
   - "I like to work, read, learn, and understand life."
   - "I like a pipe for a Christmas present,"
-  - "or records—Bessie, bop, or Bach."
-  - "I guess being colored doesn’t make me not like"
+  - "or records—Bessie, bop, or Bach.":
+      - |
+        "Bessie" refers to [Bessie Smith, the 1930s "Empress of the Blues"](https://www.youtube.com/watch?v=JpVCqXRlXx4)
+  - "I guess being colored doesn’t make me not like":
+      - The enjambment at the end of this line joins the common ground---the things we all enjoy---with racially-motivated things which can drive us apart. It transitions between an idealistic truth, and the realistic truth of the time.
   - "the same things other folks like who are other races."
   - "So will my page be colored that I write?"
   - "Being me, it will not be white."
@@ -73,4 +79,6 @@
   - "although you’re older—and white—"
   - "and somewhat more free."
 
-- - "This is my page for English B."
+- - "This is my page for English B.":
+      - The conclusion brings us back to the context. The page exists within the student--teacher dynamic. The teacher posed the original question---and stands to learn a lot more from the answer.
+      - It's also a bit of a mic-drop.
