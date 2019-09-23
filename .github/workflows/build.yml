@@ -9,13 +9,21 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
+        
     - name: yarn build
       run: |
         yarn install --dev
         yarn run build
       env:
         CI: true
+        
+    - name: Deploy to GitHub Pages
+      uses: "nchaulet/github-action-gh-pages@master"
+      secrets: [GITHUB_TOKEN]
+      env: 
+        PUBLIC_PATH: out
