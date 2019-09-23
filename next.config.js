@@ -6,5 +6,7 @@ module.exports = {
       use: "js-yaml-loader"
     });
     return config;
-  }
+  },
+
+  assetPrefix: "/theme-for-english-b/"
 };
