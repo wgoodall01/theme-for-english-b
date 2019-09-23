@@ -1,0 +1,22 @@
+{
+  "name": "theme-for-english-b",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wgoodall01/theme-for-english-b.git",
+  "author": "William Goodall <wgoodall01@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "@types/react": "^16.9.2",
+    "typescript": "^3.6.3"
+  }
+}
