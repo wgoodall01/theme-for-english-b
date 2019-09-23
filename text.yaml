@@ -2,34 +2,37 @@
 # Langston Hughes
 
 - - "The instructor said":
-      - Something interesting.
+      - The poem starts out with an 'instructor:' initially, it's externally motivated.
+      - The speaker isn't writing this because they want to themselves; they're writing it because they have to.
 
 - kind: stanza
   blockquote: true
   children:
-    - "Go home and write":
-        - Some annotation info here.
-        - Some more annotation things.
-
+    - "Go home and write"
     - "a page tonight."
-    - "And let that page come out of you—":
-        - Another annotation
+    - "And let that page come out of you—"
     - "Then, it will be true."
 
-- - "I wonder if it’s that simple?"
+- - "I wonder if it’s that simple?":
+      - In 1951 New York, Hughes's existence as an intellectual force is in and of itself a political statement.
+      - The poem starts out by arguing we should realize that things that look simple---
+        just 'letting \[the page\] be true'---can turn out to be incredibly challenging when contextualized.
+
   - "I am twenty-two, colored, born in Winston-Salem.":
       - |
-        *Fun fact*: Hughes wasn't actually born in Winston-Salem. This tells us 
-        that the poem isn't autobiographical: Hughes and the speaker are two separate people.
+        Langston Hughes wasn't actually born in Winston-Salem (he was born in [Joplin, Missouri](https://www.biography.com/writer/langston-hughes)). This tells us that the poem isn't strictly autobiographical: Hughes and the speaker are two separate people.
 
   - "I went to school there, then Durham, then here"
-  - "to this college on the hill above Harlem."
+  - "to this college on the hill above Harlem.":
+      - Most likely, this is referring to City College, literally [located on a hill](https://earth.google.com/web/@40.81680112,-73.94992514,50.82805981a,775.42600941d,35y,-16.61960919h,61.36881103t,0r) above the city. This is, again, another hint that the speaker is not Hughes---as Hughes studied at the nearby Columbia University.
+
   - "I am the only colored student in my class."
   - "The steps from the hill lead down into Harlem,"
   - "through a park, then I cross St. Nicholas,"
   - "Eighth Avenue, Seventh, and I come to the Y,"
   - "the Harlem Branch Y, where I take the elevator":
-      - The [Harlem Branch Y](https://wikipedia.org) was a place.
+      - The Harlem Branch YMCA---originally constructed due to the YMCA's [official policy of racial segregation](https://www.lib.umn.edu/ymca/guide-afam-history) from its founding in 1851 up until 1946---was a major cultural hub in the Harlem Renaissance. The lower floors contained a fitness center, while the upper floors were apartments.
+      - Claude McKay, another leading figure in the Harlem Rensaissance, lived in the Y. In 1976, it was [officially designated a US National Historic Landmark](https://npgallery.nps.gov/NRHP/GetAsset/NHLS/76002143_text) for this reason.
   - "up to my room, sit down, and write this page:"
 
 - - "It’s not easy to know what is true for you or me"
