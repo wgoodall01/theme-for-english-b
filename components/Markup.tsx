@@ -116,7 +116,7 @@ function InlineMarkdown({ children }: { children: string }) {
       unwrapDisallowed
       disallowedTypes={["paragraph"]}
       className="line"
-      source={children.replace(/---/g, "—")}
+      source={children.replace(/---/g, "—").replace(/--/g, "–")}
     />
   );
 }
