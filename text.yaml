@@ -4,6 +4,8 @@
 - - "The instructor said":
       - The poem starts out with an 'instructor:' initially, it's externally motivated.
       - The speaker isn't writing this because they want to themselves; they're writing it because they have to.
+      - |
+        The structure of *Theme for English B* is laid out in three parts: the header, starting here, the page, and a brief, one-line conclusion. This allows Hughes to wrap his assignment in the context of where, when, and by whom it was written.
 
 - kind: stanza
   blockquote: true
@@ -11,7 +13,11 @@
     - "Go home and write"
     - "a page tonight."
     - "And let that page come out of you—"
-    - "Then, it will be true."
+    - "Then, it will be true.":
+        - |
+          This line really leaves us with a question: if you write from the heart, will your writing necessarily be true?
+        - What does it really take to get to your own emotional truth?
+        - These questions set the tone for the rest of the poem, as the speaker tries to get at the truth through their own personal experience.
 
 - - "I wonder if it’s that simple?":
       - In 1951 New York, Hughes's existence as an intellectual force is in and of itself a political statement.
@@ -32,12 +38,17 @@
   - "Eighth Avenue, Seventh, and I come to the Y,"
   - "the Harlem Branch Y, where I take the elevator":
       - The Harlem Branch YMCA---originally constructed due to the YMCA's [official policy of racial segregation](https://www.lib.umn.edu/ymca/guide-afam-history) from its founding in 1851 up until 1946---was a major cultural hub in the Harlem Renaissance. The lower floors contained a fitness center, while the upper floors were apartments.
-      - Claude McKay, another leading figure in the Harlem Rensaissance, lived in the Y. In 1976, it was [officially designated a US National Historic Landmark](https://npgallery.nps.gov/NRHP/GetAsset/NHLS/76002143_text) for this reason.
-  - "up to my room, sit down, and write this page:"
+      - Claude McKay, another leading figure in the Harlem Renaissance, lived in the Y. In 1976, it was [officially designated a US National Historic Landmark](https://npgallery.nps.gov/NRHP/GetAsset/NHLS/76002143_text) for this reason.
+  - "up to my room, sit down, and write this page:":
+      - By this point, Hughes has established the setting. The narrator is a student very similar to Hughes. They both live and study in Harlem. They both struggle with finding their own true identity. They both use writing as a tool to help elicit the truth.
 
-- - "It’s not easy to know what is true for you or me"
+- - "It’s not easy to know what is true for you or me":
+      - |
+        The theme of discovering the truth follows the speaker from their life into their writing.
+      - At this point, the speaker is using writing to discover what their truth really is.
   - "at twenty-two, my age. But I guess I’m what"
-  - "I feel and see and hear, Harlem, I hear you."
+  - "I feel and see and hear, Harlem, I hear you.":
+      - The speaker acknowledges that truth can only extend to the outputs of our senses.
   - "hear you, hear me—we two—you, me, talk on this page."
   - "(I hear New York, too.) Me—who?"
 
